@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>U-TOUR</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+function initialize() {
+  var mapOptions = {
+    zoom: 19,
+    center: new google.maps.LatLng(8.4859137,124.6565333),
+    disableDefaultUI: true
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                mapOptions);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    </script>
+
+
+    
+<body>
+    <header>
+        <div class="headerback"><img src="css/images/headerbackground_01.png"></div>
+    <div class="container">
+        <section class="logo"><img src="css/images/logo_03.png">
+            <section class="Uni-Name">
+                <h2>Mindanao Unversity of Science and Technology</h2>
+                <P>Cagayan de oro City, Philippines</P>
+            </section>
+        </section>  
+    </div>
+    </header>
+    <main>
+    <section class="map">
+        <div id="map-canvas"></div>
+ 
+    </section>
+   
+    <section class="about"> 
+        <div class="container">
+            <h2>Buildings:</h2>
+        </div>
+    </section>
+    <section class="border"></section>
+    <section>
+        <div class="container">
+            <section class="content">
+        1- Tissue Culture Lab <br>
+        2- Guidance and Testing Center<br>
+        3- Integrated Tech. Bldg. II & III<br>
+        4- Food Science and Tech. Bldg.<br>
+            </section>
+        </div>
+             </section>
+    </main>
+    <footer>
+        <div class="container">
+            <h5>Copyrights All Reserved 2015.</h5>
+        </div>
+    </footer>
+</body>
+</html>
