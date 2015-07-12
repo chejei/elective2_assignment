@@ -65,6 +65,14 @@ headerback{
     text-align: Center;
     font-size: 30px;
 }
+.bannerTitle1 {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 12%;
+}
 .bannerTitle h1 {
     margin: 0px;
 }
@@ -143,4 +151,19 @@ main section.video{
 #map-canvas {
     width: 100%;
     height: 100%;
+}
+.convid{
+    position: 
+}
+.col-videos {
+    width: 80%;
+    margin: 30px auto 20px;
+}
+.row-videos {
+    display: inline-block;
+    margin: 10px 15px;
+}
+footer {
+    bottom: 0px;
+    width: 100%;
 }
