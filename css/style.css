@@ -167,3 +167,13 @@ footer {
     bottom: 0px;
     width: 100%;
 }
+.contentInfo{
+}
+a{
+text-decoration: none;
+text-decoration-color: #000;
+}
+aside {
+    width: 50%;
+    float: right;
+}
